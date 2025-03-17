@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Cards with Bootstrap Grid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="my">Travel Categories</h2>
+    
+    <!-- Buttons Row -->
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#devotional">
+                Devotional
+            </button>
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#summer">
+                Summer Vacation
+            </button>
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#winter">
+                Winter Places to Visit
+            </button>
+        </div>
+    </div>
+
+    <div id="devotional" class="collapse">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGLljqCBvvSzhlXzKs71vo8S712RMpdefIA&s" class="card-img-top" alt="Temple 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ammapally Temple</h5>
+                        <p class="card-text">Famous for its beautiful architecture and religious significance.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN9cihgipVPxl6ZcJGAvSjfo6lJJ7z3ByoXw&s" class="card-img-top" alt="Temple 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Iscon Temple</h5>
+                        <p class="card-text">Dedicated to Lord Krishna, known for its spiritual atmosphere.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjW_y0Xt5KZm4yhFvCdcjHnHSiyIEpgrClpQ&s" class="card-img-top" alt="Temple 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Srivari Seva Trust</h5>
+                        <p class="card-text">A temple trust focused on social welfare and spirituality.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="summer" class="collapse">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCr7EZ6NPEw9VX0RxbCVAlv6pyu5FfQACNw&s" class="card-img-top" alt="Summer 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Shimla</h5>
+                        <p class="card-text">A beautiful hill station known for its cool climate and scenic views.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://www.holidify.com/images/bgImages/KASHMIR.jpg" class="card-img-top" alt="Summer 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Manali</h5>
+                        <p class="card-text">Famous for adventure sports and stunning mountains.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMZRkgK07LrhCaJEkDqbWREY5iqP0IdeejLQ&s" class="card-img-top" alt="Summer 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Darjeeling</h5>
+                        <p class="card-text">Known for its tea gardens and beautiful sunrise views.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="winter" class="collapse">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjY7fPBGxdWDmJUshC3nM8XPOTJSwsyGZ8hw&s" class="card-img-top" alt="Winter 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Gulmarg</h5>
+                        <p class="card-text">Famous for skiing and beautiful snow-covered landscapes.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://assets.thehansindia.com/h-upload/2020/01/02/250757-gulmarg.webp" class="card-img-top" alt="Winter 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Auli</h5>
+                        <p class="card-text">Known for its ski resorts and scenic beauty.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://www.spectralhues.com/wp-content/uploads/2019/11/Auli.jpg" class="card-img-top" alt="Winter 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Shimla</h5>
+                        <p class="card-text">A popular winter destination with colonial charm.</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
