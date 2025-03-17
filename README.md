@@ -1,0 +1,1 @@
+This project is a responsive travel website built using HTML and Bootstrap. It allows users to toggle between different categories of travel destinations (Devotional, Summer Vacation, Winter Places to Visit) by clicking buttons. When a button is clicked, the related section with three cards appears or disappears using Bootstrap's built-in collapse component
